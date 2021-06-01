@@ -1,0 +1,16 @@
+$theme-colors: (
+  "primary": #4BC1E0,
+  "secondary": #5A75E5,
+  );
+  
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.carousel .item {
+  height: 300px;
+}
+  
+  
+@import "../node_modules/bootstrap/scss/bootstrap";

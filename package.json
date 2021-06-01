@@ -1,0 +1,34 @@
+{
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.4",
+    "postcss": "^8.3.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "name": "ux-project-wgu",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clinzy25/ux-project-wgu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clinzy25/ux-project-wgu/issues"
+  },
+  "homepage": "https://github.com/clinzy25/ux-project-wgu#readme",
+  "description": ""
+}
