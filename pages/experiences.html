@@ -7,7 +7,6 @@
         <title>Discover Taniti</title>
         <link rel="stylesheet" href="../sass/index.css" />
         <script src="../script.js" type="text/javascript" defer></script>
-
     </head>
     <body>
         <nav
@@ -62,13 +61,38 @@
                     </ul>
                     <form class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item dropdown">
                                 <a
-                                    class="nav-link active"
-                                    aria-current="page"
+                                    class="nav-link dropdown-toggle"
                                     href="#"
-                                    >Contact</a
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
                                 >
+                                    Contact
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Chat with a travel agent</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Call us at 1-800-555-5555</a
+                                        >
+                                    </li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Email : tahini.tourism@gmail.com</a
+                                        >
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a
@@ -93,6 +117,326 @@
             </div>
         </nav>
 
+        <!-- Hero -->
+        <section
+            class="vh-100 d-flex justify-content-center align-items-center"
+            style="
+                background: url('../images/snorkel.jpg') no-repeat center center
+                    fixed;
+                background-size: cover;
+            "
+        >
+            <h1 class="text-white display-1">Experiences</h1>
+        </section>
+
+        <!-- Experiences -->
+        <section class="container-fluid col-lg-12 col-sm-12">
+            <div class="row m-5">
+                <div class="card mb-3 w-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                class="w-100 h-100"
+                                src="../images/beach-exp.jpg"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Beaches</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nostrum a possimus porro
+                                    sint aperiam itaque quibusdam consectetur
+                                    quis ullam, accusantium ratione temporibus
+                                    ex beatae odio. Aut sit sapiente numquam
+                                    repellat voluptatum voluptatibus cupiditate,
+                                    culpa pariatur consequatur veniam aliquam,
+                                    doloremque excepturi ut. Aut sapiente eius
+                                    saepe et, placeat ullam, qui aspernatur
+                                    recusandae doloribus voluptate voluptates
+                                    reiciendis facilis consequuntur! Assumenda
+                                    repudiandae eveniet eum corrupti voluptate
+                                    excepturi perspiciatis, perferendis, veniam
+                                    dicta aliquam illum error sequi ullam minima
+                                    a provident atque modi autem eaque
+                                    perferendis.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted"
+                                        >Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. In earum at, sed rerum
+                                        fugiat quae adipisci minima iste ratione
+                                        repudiandae!</small
+                                    >
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-info btn-secondary px-5"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="card mb-3 w-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                class="w-100 h-100"
+                                src="../images/boat.jpg"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Tours</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nostrum a possimus porro
+                                    sint aperiam itaque quibusdam consectetur
+                                    quis ullam, accusantium ratione temporibus
+                                    ex beatae odio. Aut sit sapiente numquam
+                                    repellat voluptatum voluptatibus cupiditate,
+                                    culpa pariatur consequatur veniam aliquam,
+                                    doloremque excepturi ut. Aut sapiente eius
+                                    saepe et, placeat ullam, qui aspernatur
+                                    recusandae doloribus voluptate voluptates
+                                    reiciendis facilis consequuntur! Assumenda
+                                    repudiandae eveniet eum corrupti voluptate
+                                    excepturi perspiciatis, perferendis, veniam
+                                    dicta aliquam illum error sequi ullam minima
+                                    a provident atque modi autem eaque
+                                    voluptate.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted"
+                                        >Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. In earum at, sed rerum
+                                        fugiat quae adipisci minima iste ratione
+                                        repudiandae!</small
+                                    >
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-info btn-secondary px-5"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="card mb-3 w-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                class="w-100 h-100"
+                                src="../images/outdoor.jpg"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Outdoor Activities</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nostrum a possimus porro
+                                    sint aperiam itaque quibusdam consectetur
+                                    quis ullam, accusantium ratione temporibus
+                                    ex beatae odio. Aut sit sapiente numquam
+                                    repellat voluptatum voluptatibus cupiditate,
+                                    culpa pariatur consequatur veniam aliquam,
+                                    doloremque excepturi ut. Aut sapiente eius
+                                    saepe et, placeat ullam, qui aspernatur
+                                    recusandae doloribus voluptate voluptates
+                                    reiciendis facilis consequuntur! Assumenda
+                                    repudiandae eveniet eum corrupti voluptate
+                                    excepturi perspiciatis, perferendis, veniam
+                                    dicta aliquam illum error sequi ullam minima
+                                    a provident atque modi autem eaque
+                                    excepturi.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted"
+                                        >Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. In earum at, sed rerum
+                                        fugiat quae adipisci minima iste ratione
+                                        repudiandae!</small
+                                    >
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-info btn-secondary px-5"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="card mb-3 w-100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                class="w-100 h-100"
+                                src="../images/museum.jpg"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Galleries and Museums
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nostrum a possimus porro
+                                    sint aperiam itaque quibusdam consectetur
+                                    quis ullam, accusantium ratione temporibus
+                                    ex beatae odio. Aut sit sapiente numquam
+                                    repellat voluptatum voluptatibus cupiditate,
+                                    culpa pariatur consequatur veniam aliquam,
+                                    doloremque excepturi ut. Aut sapiente eius
+                                    saepe et, placeat ullam, qui aspernatur
+                                    recusandae doloribus voluptate voluptates
+                                    reiciendis facilis consequuntur! Assumenda
+                                    repudiandae eveniet eum corrupti voluptate
+                                    excepturi perspiciatis, perferendis, veniam
+                                    dicta aliquam illum error sequi ullam minima
+                                    a provident atque modi autem eaque.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted"
+                                        >Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. In earum at, sed rerum
+                                        fugiat quae adipisci minima iste ratione
+                                        repudiandae!</small
+                                    >
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-info btn-secondary px-5"
+                                >
+                                    Explore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-5">
+                <h5>
+                    Have questions? Speak with one of our experienced travel
+                    agents
+                    <button type="button" class="chat-btn btn btn-secondary">
+                        Chat
+                    </button>
+                </h5>
+            </div>
+        </section>
+        
+        <!-- Chat -->
+        <div class="page-content page-container d-none" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card card-bordered">
+                            <div class="card-header">
+                                <h4 class="card-title">
+                                    <strong>Chat</strong>
+                                </h4>
+                            </div>
+                            <div
+                                class="
+                                    ps-container ps-theme-default ps-active-y
+                                "
+                                id="chat-content"
+                                style="
+                                    overflow-y: scroll !important;
+                                    height: 400px !important;
+                                "
+                            >
+                                <div class="media media-chat">
+                                    <img
+                                        class="avatar"
+                                        src="https://img.icons8.com/color/36/000000/administrator-male.png"
+                                        alt="..."
+                                    />
+                                    <div class="media-body">
+                                        <p>Hi</p>
+                                        <p>How are you ...???</p>
+                                        <p>
+                                            What are you doing tomorrow?<br />
+                                            Can we come up a bar?
+                                        </p>
+                                        <p class="meta">
+                                            <time datetime="2018">23:58</time>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="ps-scrollbar-x-rail"
+                                    style="left: 0px; bottom: 0px"
+                                >
+                                    <div
+                                        class="ps-scrollbar-x"
+                                        tabindex="0"
+                                        style="left: 0px; width: 0px"
+                                    ></div>
+                                </div>
+                                <div
+                                    class="ps-scrollbar-y-rail"
+                                    style="top: 0px; height: 0px; right: 2px"
+                                >
+                                    <div
+                                        class="ps-scrollbar-y"
+                                        tabindex="0"
+                                        style="top: 0px; height: 2px"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="publisher bt-1 border-light">
+                                <img
+                                    class="avatar avatar-xs"
+                                    src="https://img.icons8.com/color/36/000000/administrator-male.png"
+                                    alt="..."
+                                />
+                                <input
+                                    class="publisher-input"
+                                    type="text"
+                                    placeholder="Write something"
+                                />
+                                <span class="publisher-btn file-group">
+                                    <i class="fa fa-paperclip file-browser"></i>
+                                    <input type="file" />
+                                </span>
+                                <a
+                                    class="publisher-btn"
+                                    href="#"
+                                    data-abc="true"
+                                    ><i class="fa fa-smile"></i
+                                ></a>
+                                <a
+                                    class="publisher-btn text-info"
+                                    href="#"
+                                    data-abc="true"
+                                    ><i class="fa fa-paper-plane"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="bg-primary" style="height: 300px">
             <h2>Footer</h2>
