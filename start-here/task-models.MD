@@ -8,4 +8,4 @@
 
 4. You have tons of questions, find a way to chat synchronously with someone
 
-5. 
+5. You have 19 small children. Find out if any activites are family friendly.
