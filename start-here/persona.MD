@@ -50,9 +50,9 @@ Data patterns:
   - Internet search -- something like '[romantic / tropical / beach] vacation'
   
 - Goals and needs -- 
- - Want to feel like its a unique experience, not just another tropical vacation location
- - Want to feel like the will be alone, exclusive, to themselves
- - Make sure they can refund the trip if plans change
+  - Want to feel like its a unique experience, not just another tropical vacation location
+  - Want to feel like the will be alone, exclusive, to themselves
+  - Make sure they can refund the trip if plans change
 
 - Pain points -- 
   bad website design, long booking process, marketing mainly to affluent adults may seem tacky
